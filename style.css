@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#container {
+    margin: 20px 0px 0px 5px;
+    display: flex;
+}
+
+#left_con {
+    width: 50%;
+}
+
+
+/* #Box {
+    height: 150px;
+    margin-bottom: 20px;
+} */
+
+#Bigbox {
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    margin: 10px 0px 0px 5px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+
+#likesvg {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#base {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buttonright {
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.buttonright p {
+    margin: 0 10px 0 10px;
+}
+
+#right_con {
+    width: 50%;
+    display: block;
+}
+
+#sub_total {
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+#shop_icon {
+    display: block;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+#right_con h4 {
+    text-align: center;
+}
+
+h4 {
+    color: orangered;
+}
+
+h4 span {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: orangered;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 80px;
+}
+
+h2+p {
+    text-align: center;
+    color: rgb(159, 157, 157);
+    font-size: large;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media (max-width: 576px) {
+    #left_con {
+        width: 50%;
+        margin-left: 5px;
+    }
+    .smallbox {
+        display: block;
+        justify-content: space-between;
+    }
+    .right {
+        display: inline-flex;
+        justify-content: center;
+    }
+    h2+p {
+        width: 150px;
+        text-align: center;
+        color: rgb(159, 157, 157);
+        font-size: large;
+        font-style: italic;
+        font-weight: 400;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #shop_icon {
+        width: 80px;
+        display: block;
+        margin: 0px auto;
+        justify-content: center;
+    }
+    #sub_total {
+        width: 40%;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 1px 5px 20px 0px;
+    }
+}
